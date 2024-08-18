@@ -9,5 +9,4 @@ for (let i = 0; i <256 ; i++){
 
        gridItem.appendChild(gridSquare);
        container.appendChild(gridItem);
-      
     }
