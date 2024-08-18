@@ -1,4 +1,7 @@
 const container = document.querySelector('.grid');
+const button = document.getElementById('newGridButton');
+
+
 
 for (let i = 0; i <256 ; i++){
         const gridItem = document.createElement('div');
