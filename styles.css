@@ -1,0 +1,14 @@
+
+.grid{
+   display: flex;
+   flex-wrap: wrap;
+   border: 2px solid black;
+   width: 400px;
+   height: 400px;
+}
+.cell {
+    flex: 0 0 6.25%; /* 100% / 16 = 6.25% */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 6.25%;
+}
